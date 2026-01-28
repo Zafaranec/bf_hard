@@ -1,0 +1,5 @@
+name;last_name;date_of_birth;address;city;zip_code;phone_number;ip
+John;Wayne;26.5.1907;Wallstreet 23;Phoenix;22487;730465164;127.0.0.1
+Carl;Weathers;14.1.1948;Konvalinková 21/A;Houston;22488;730465165;127.0.0.2
+Simon;Baker;30.7.1969;St. Luis 7;San Francisco;22489;730465166;127.0.0.3
+James;Bond;25.8.1930;Paris 123;Paris;22490;730465167;127.0.0.4
