@@ -32,7 +32,7 @@ public class ExcelExporter implements Exporter {
 		) {
 			Sheet xlsxSheet = xlsxWorkbook.createSheet(sheetName);
 			// Export the table header first
-			Row headerRow = xlsxSheet.createRow(1);
+			Row headerRow = xlsxSheet.createRow(0);
 			for (int colNum = 0; colNum < columns.size(); colNum++) {
 				var cell = headerRow.createCell(colNum);
 				cell.setCellValue(columns.get(colNum));

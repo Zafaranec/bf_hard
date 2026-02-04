@@ -13,13 +13,12 @@ public class TableProcessing {
 	private static final Map<String, List<String>> mapping = new LinkedHashMap<>();
 
 	static {
-		mapping.put("IP", List.of("ip"));
 		mapping.put("Full name", List.of("name", "last_name"));
 		mapping.put("Date of birth", List.of("date_of_birth"));
-		mapping.put("Address", List.of("address"));
-		mapping.put("City", List.of("city"));
+		mapping.put("Address", List.of("address", "city"));
 		mapping.put("Zip code", List.of("zip_code"));
-		mapping.put("Phone number", List.of("phone_num"));
+		mapping.put("Phone number", List.of("phone_number"));
+		mapping.put("IP", List.of("ip"));
 	}
 
 	public Map<String, String> processRow(Map<String, String> row) {
